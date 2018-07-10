@@ -13,6 +13,22 @@
 		F5741FF220F44BC400EAB19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5741FF120F44BC400EAB19A /* Assets.xcassets */; };
 		F5741FF520F44BC400EAB19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5741FF320F44BC400EAB19A /* LaunchScreen.storyboard */; };
 		F5741FF820F44BC400EAB19A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5741FF720F44BC400EAB19A /* main.m */; };
+		F574202A20F4643F00EAB19A /* JPNavItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F574202120F4643F00EAB19A /* JPNavItemButton.m */; };
+		F574202B20F4643F00EAB19A /* JPNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F574202220F4643F00EAB19A /* JPNavigationBar.m */; };
+		F574202C20F4643F00EAB19A /* UIBarButtonItem+JPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F574202520F4643F00EAB19A /* UIBarButtonItem+JPItem.m */; };
+		F574202D20F4643F00EAB19A /* JPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574202620F4643F00EAB19A /* JPBaseViewController.m */; };
+		F574202E20F4643F00EAB19A /* JPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574202920F4643F00EAB19A /* JPNavigationController.m */; };
+		F574203820F4656A00EAB19A /* MainControllerInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F574203520F4656A00EAB19A /* MainControllerInfo.plist */; };
+		F574203920F4656A00EAB19A /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574203620F4656A00EAB19A /* MainTabBarController.m */; };
+		F574203C20F465D000EAB19A /* JPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F574203B20F465D000EAB19A /* JPTabBar.m */; };
+		F574206220F4666C00EAB19A /* UIView+JP_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F574205520F4666C00EAB19A /* UIView+JP_Frame.m */; };
+		F574206620F46A5C00EAB19A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574206520F46A5C00EAB19A /* FirstViewController.m */; };
+		F574206920F46A6A00EAB19A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574206820F46A6A00EAB19A /* SecondViewController.m */; };
+		F574206C20F46A7700EAB19A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574206B20F46A7700EAB19A /* ThirdViewController.m */; };
+		F574206F20F46A8200EAB19A /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574206E20F46A8200EAB19A /* FourthViewController.m */; };
+		F574207220F46C5800EAB19A /* UIColor+JP_Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F574207120F46C5800EAB19A /* UIColor+JP_Color.m */; };
+		F574207520F4779A00EAB19A /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574207420F4779A00EAB19A /* NextViewController.m */; };
+		F574207820F47C5600EAB19A /* PresendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574207720F47C5600EAB19A /* PresendViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,38 @@
 		F5741FF420F44BC400EAB19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5741FF620F44BC400EAB19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5741FF720F44BC400EAB19A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F574200E20F45EAC00EAB19A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F574202020F4643F00EAB19A /* UIBarButtonItem+JPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JPItem.h"; sourceTree = "<group>"; };
+		F574202120F4643F00EAB19A /* JPNavItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNavItemButton.m; sourceTree = "<group>"; };
+		F574202220F4643F00EAB19A /* JPNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNavigationBar.m; sourceTree = "<group>"; };
+		F574202320F4643F00EAB19A /* JPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPBaseViewController.h; sourceTree = "<group>"; };
+		F574202420F4643F00EAB19A /* JPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationController.h; sourceTree = "<group>"; };
+		F574202520F4643F00EAB19A /* UIBarButtonItem+JPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JPItem.m"; sourceTree = "<group>"; };
+		F574202620F4643F00EAB19A /* JPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPBaseViewController.m; sourceTree = "<group>"; };
+		F574202720F4643F00EAB19A /* JPNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavigationBar.h; sourceTree = "<group>"; };
+		F574202820F4643F00EAB19A /* JPNavItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNavItemButton.h; sourceTree = "<group>"; };
+		F574202920F4643F00EAB19A /* JPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNavigationController.m; sourceTree = "<group>"; };
+		F574203520F4656A00EAB19A /* MainControllerInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainControllerInfo.plist; sourceTree = "<group>"; };
+		F574203620F4656A00EAB19A /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		F574203720F4656A00EAB19A /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		F574203A20F465D000EAB19A /* JPTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPTabBar.h; sourceTree = "<group>"; };
+		F574203B20F465D000EAB19A /* JPTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPTabBar.m; sourceTree = "<group>"; };
+		F574204A20F4666C00EAB19A /* UIView+JP_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JP_Frame.h"; sourceTree = "<group>"; };
+		F574205520F4666C00EAB19A /* UIView+JP_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JP_Frame.m"; sourceTree = "<group>"; };
+		F574206420F46A5C00EAB19A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F574206520F46A5C00EAB19A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F574206720F46A6A00EAB19A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F574206820F46A6A00EAB19A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F574206A20F46A7700EAB19A /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F574206B20F46A7700EAB19A /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F574206D20F46A8200EAB19A /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		F574206E20F46A8200EAB19A /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		F574207020F46C5800EAB19A /* UIColor+JP_Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JP_Color.h"; sourceTree = "<group>"; };
+		F574207120F46C5800EAB19A /* UIColor+JP_Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JP_Color.m"; sourceTree = "<group>"; };
+		F574207320F4779A00EAB19A /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		F574207420F4779A00EAB19A /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		F574207620F47C5600EAB19A /* PresendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresendViewController.h; sourceTree = "<group>"; };
+		F574207720F47C5600EAB19A /* PresendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresendViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +106,15 @@
 		F5741FE720F44BC100EAB19A /* JPNavigationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F574203420F4656A00EAB19A /* JPTabBarController */,
+				F574201F20F4643F00EAB19A /* JPNavigationView */,
+				F574203D20F4666C00EAB19A /* Extensions */,
+				F574206320F46A4700EAB19A /* Classes */,
 				F5741FE820F44BC100EAB19A /* AppDelegate.h */,
 				F5741FE920F44BC100EAB19A /* AppDelegate.m */,
 				F5741FEB20F44BC100EAB19A /* ViewController.h */,
 				F5741FEC20F44BC100EAB19A /* ViewController.m */,
+				F574200E20F45EAC00EAB19A /* PrefixHeader.pch */,
 				F5741FEE20F44BC100EAB19A /* Main.storyboard */,
 				F5741FF120F44BC400EAB19A /* Assets.xcassets */,
 				F5741FF320F44BC400EAB19A /* LaunchScreen.storyboard */,
@@ -69,6 +122,65 @@
 				F5741FF720F44BC400EAB19A /* main.m */,
 			);
 			path = JPNavigationDemo;
+			sourceTree = "<group>";
+		};
+		F574201F20F4643F00EAB19A /* JPNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				F574202320F4643F00EAB19A /* JPBaseViewController.h */,
+				F574202620F4643F00EAB19A /* JPBaseViewController.m */,
+				F574202420F4643F00EAB19A /* JPNavigationController.h */,
+				F574202920F4643F00EAB19A /* JPNavigationController.m */,
+				F574202720F4643F00EAB19A /* JPNavigationBar.h */,
+				F574202220F4643F00EAB19A /* JPNavigationBar.m */,
+				F574202820F4643F00EAB19A /* JPNavItemButton.h */,
+				F574202120F4643F00EAB19A /* JPNavItemButton.m */,
+				F574202020F4643F00EAB19A /* UIBarButtonItem+JPItem.h */,
+				F574202520F4643F00EAB19A /* UIBarButtonItem+JPItem.m */,
+			);
+			path = JPNavigationView;
+			sourceTree = "<group>";
+		};
+		F574203420F4656A00EAB19A /* JPTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F574203520F4656A00EAB19A /* MainControllerInfo.plist */,
+				F574203720F4656A00EAB19A /* MainTabBarController.h */,
+				F574203620F4656A00EAB19A /* MainTabBarController.m */,
+				F574203A20F465D000EAB19A /* JPTabBar.h */,
+				F574203B20F465D000EAB19A /* JPTabBar.m */,
+			);
+			path = JPTabBarController;
+			sourceTree = "<group>";
+		};
+		F574203D20F4666C00EAB19A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F574207020F46C5800EAB19A /* UIColor+JP_Color.h */,
+				F574207120F46C5800EAB19A /* UIColor+JP_Color.m */,
+				F574204A20F4666C00EAB19A /* UIView+JP_Frame.h */,
+				F574205520F4666C00EAB19A /* UIView+JP_Frame.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F574206320F46A4700EAB19A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F574206420F46A5C00EAB19A /* FirstViewController.h */,
+				F574206520F46A5C00EAB19A /* FirstViewController.m */,
+				F574206720F46A6A00EAB19A /* SecondViewController.h */,
+				F574206820F46A6A00EAB19A /* SecondViewController.m */,
+				F574206A20F46A7700EAB19A /* ThirdViewController.h */,
+				F574206B20F46A7700EAB19A /* ThirdViewController.m */,
+				F574206D20F46A8200EAB19A /* FourthViewController.h */,
+				F574206E20F46A8200EAB19A /* FourthViewController.m */,
+				F574207320F4779A00EAB19A /* NextViewController.h */,
+				F574207420F4779A00EAB19A /* NextViewController.m */,
+				F574207620F47C5600EAB19A /* PresendViewController.h */,
+				F574207720F47C5600EAB19A /* PresendViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +243,7 @@
 				F5741FF520F44BC400EAB19A /* LaunchScreen.storyboard in Resources */,
 				F5741FF220F44BC400EAB19A /* Assets.xcassets in Resources */,
 				F5741FF020F44BC100EAB19A /* Main.storyboard in Resources */,
+				F574203820F4656A00EAB19A /* MainControllerInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +254,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F574202D20F4643F00EAB19A /* JPBaseViewController.m in Sources */,
+				F574206920F46A6A00EAB19A /* SecondViewController.m in Sources */,
+				F574202E20F4643F00EAB19A /* JPNavigationController.m in Sources */,
+				F574203920F4656A00EAB19A /* MainTabBarController.m in Sources */,
+				F574207820F47C5600EAB19A /* PresendViewController.m in Sources */,
 				F5741FED20F44BC100EAB19A /* ViewController.m in Sources */,
 				F5741FF820F44BC400EAB19A /* main.m in Sources */,
+				F574206F20F46A8200EAB19A /* FourthViewController.m in Sources */,
+				F574206C20F46A7700EAB19A /* ThirdViewController.m in Sources */,
+				F574203C20F465D000EAB19A /* JPTabBar.m in Sources */,
+				F574202B20F4643F00EAB19A /* JPNavigationBar.m in Sources */,
+				F574206620F46A5C00EAB19A /* FirstViewController.m in Sources */,
+				F574207520F4779A00EAB19A /* NextViewController.m in Sources */,
+				F574206220F4666C00EAB19A /* UIView+JP_Frame.m in Sources */,
+				F574202A20F4643F00EAB19A /* JPNavItemButton.m in Sources */,
+				F574207220F46C5800EAB19A /* UIColor+JP_Color.m in Sources */,
 				F5741FEA20F44BC100EAB19A /* AppDelegate.m in Sources */,
+				F574202C20F4643F00EAB19A /* UIBarButtonItem+JPItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +411,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U37X4645WQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JPNavigationDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = JPNavigationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.JPNavigationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,14 +432,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U37X4645WQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JPNavigationDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = JPNavigationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.JPNavigationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
