@@ -28,18 +28,15 @@
     if (self.childViewControllers.count > 0) {
         
         viewController.hidesBottomBarWhenPushed = YES;
-        UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithItemImageName:@"navigationbar_back_withtext" target:self action:@selector(popViewController)];
-        //为了向左缩进
-        UIBarButtonItem *spaceItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
-        spaceItem.width = -5;
-
+        
         JPBaseViewController *baseCtrl = (JPBaseViewController *)viewController;
-        baseCtrl.jp_NavigationItem.leftBarButtonItems = @[spaceItem,backItem];
+        [baseCtrl jp_SetNavigationBackItemWithTarget:self action:@selector(p_ClickBackBtn)];
+        
     }
     [super pushViewController:viewController animated:animated];
 }
 
-- (void)popViewController {
+- (void)p_ClickBackBtn {
     
     [self popViewControllerAnimated:YES];
 }
@@ -50,13 +47,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

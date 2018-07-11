@@ -19,19 +19,33 @@
     for (UIView *view in self.subviews) {
         if([NSStringFromClass([view class]) containsString:@"Background"]) {
             view.frame = self.bounds;
+//            for (UIView *subView in view.subviews) {
+//                if ([NSStringFromClass([subView class]) containsString:@"EffectView"]) {
+//                    for (UIView *effectView in subView.subviews) {
+//                        if ([NSStringFromClass([effectView class]) containsString:@"EffectSubview"]) {
+//                            UIVisualEffectView *effview = (UIVisualEffectView *)effectView;
+//                            effview.backgroundColor = [UIColor whiteColor];
+//                            effview.tintColor = [UIColor whiteColor];
+//                        }
+//                    }
+//                }
+//            }
         }else if ([NSStringFromClass([view class]) containsString:@"ContentView"]) {
             CGRect frame = view.frame;
             frame.origin.y = STATUS_BAR_HEIGHT;
             frame.size.height = self.bounds.size.height - frame.origin.y;
             view.frame = frame;
-            
             for (UIView *subView in view.subviews) {
                 if ([NSStringFromClass([subView class]) containsString:@"BarStackView"] && systemVersion >= 11.0) {
                     
-                    NSArray * arrayConstraint = subView.constraints;
-                    for (NSLayoutConstraint * constant in arrayConstraint) {
-                        constant.constant = 0;
-                    }
+                    view.layoutMargins = UIEdgeInsetsMake(view.layoutMargins.top, 8, view.layoutMargins.bottom, 8);
+                    //                    NSArray * arrayConstraint = subView.constraints;
+                    //                    for (NSLayoutConstraint * constant in arrayConstraint) {
+                    //                        NSLog(@"firstItem--%@ secondItem--%@",[constant.firstItem class],[constant.secondItem class]);
+                    //                        if ([NSStringFromClass([constant.firstItem class]) containsString:@"UILayoutGuide"] && constant.firstAttribute == NSLayoutAttributeWidth) {
+                    //                            constant.constant = 0;
+                    //                        }
+                    //                    }
                     
                 }
             }

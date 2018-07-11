@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F570946620F5B410002EE746 /* HiddenNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F570946520F5B410002EE746 /* HiddenNavViewController.m */; };
 		F5741FEA20F44BC100EAB19A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5741FE920F44BC100EAB19A /* AppDelegate.m */; };
 		F5741FED20F44BC100EAB19A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5741FEC20F44BC100EAB19A /* ViewController.m */; };
 		F5741FF020F44BC100EAB19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5741FEE20F44BC100EAB19A /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F570946420F5B410002EE746 /* HiddenNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenNavViewController.h; sourceTree = "<group>"; };
+		F570946520F5B410002EE746 /* HiddenNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenNavViewController.m; sourceTree = "<group>"; };
 		F5741FE520F44BC100EAB19A /* JPNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5741FE820F44BC100EAB19A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5741FE920F44BC100EAB19A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +182,8 @@
 				F574207420F4779A00EAB19A /* NextViewController.m */,
 				F574207620F47C5600EAB19A /* PresendViewController.h */,
 				F574207720F47C5600EAB19A /* PresendViewController.m */,
+				F570946420F5B410002EE746 /* HiddenNavViewController.h */,
+				F570946520F5B410002EE746 /* HiddenNavViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				F574202D20F4643F00EAB19A /* JPBaseViewController.m in Sources */,
 				F574206920F46A6A00EAB19A /* SecondViewController.m in Sources */,
 				F574202E20F4643F00EAB19A /* JPNavigationController.m in Sources */,
+				F570946620F5B410002EE746 /* HiddenNavViewController.m in Sources */,
 				F574203920F4656A00EAB19A /* MainTabBarController.m in Sources */,
 				F574207820F47C5600EAB19A /* PresendViewController.m in Sources */,
 				F5741FED20F44BC100EAB19A /* ViewController.m in Sources */,

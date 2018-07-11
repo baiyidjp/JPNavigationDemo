@@ -1,31 +1,31 @@
 //
-//  PresendViewController.m
+//  HiddenNavViewController.m
 //  JPNavigationDemo
 //
-//  Created by baiyi on 2018/7/10.
+//  Created by baiyi on 2018/7/11.
 //  Copyright © 2018年 dong. All rights reserved.
 //
 
-#import "PresendViewController.h"
+#import "HiddenNavViewController.h"
 
-@interface PresendViewController ()
+@interface HiddenNavViewController ()
 
 @end
 
-@implementation PresendViewController
+@implementation HiddenNavViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"PresendViewController";
+    self.title = @"HiddenNav";
     
-    [self jp_SetNavigationItemWithInfoString:@"tabbar_home" Type:JPNavigationItemType_Image Layout:YES FixSpace:YES target:self action:@selector(p_ClickBackBtn)];
-
+    [self jp_HiddenNavigationBarAndShowBackBtn:YES];
+    
 }
 
-- (void)p_ClickBackBtn {
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 /*

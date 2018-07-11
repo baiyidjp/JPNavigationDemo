@@ -17,9 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithItemTitle:@"Next" Layout:NO target:self action:@selector(p_ClickRightItem)];
-    self.jp_NavigationItem.rightBarButtonItem = rightItem;
+
+    [self jp_SetNavigationRightTextItemWithInfoString:@"Next" target:self action:@selector(p_ClickRightItem)];
     
 }
 

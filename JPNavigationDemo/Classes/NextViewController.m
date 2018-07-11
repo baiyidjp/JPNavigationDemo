@@ -7,6 +7,7 @@
 //
 
 #import "NextViewController.h"
+#import "HiddenNavViewController.h"
 
 @interface NextViewController ()
 
@@ -21,13 +22,12 @@
     
     self.jp_BarTintColor = [UIColor orangeColor];
     
-    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithItemTitle:@"PopBack" Layout:NO target:self action:@selector(p_ClickPopBtn)];
-    self.jp_NavigationItem.rightBarButtonItem = rightItem;
+    [self jp_SetNavigationRightTextItemWithInfoString:@"HiddenNav" target:self action:@selector(p_ClickHiddenNav)];
 }
 
-- (void)p_ClickPopBtn {
+- (void)p_ClickHiddenNav {
     
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController pushViewController:[HiddenNavViewController new] animated:YES];
 }
 
 @end
